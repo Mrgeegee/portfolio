@@ -1,0 +1,427 @@
+body{
+	font-family: Arial;
+	margin: 0%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+header{
+	display: flex;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+#flex1{
+	flex: 1;
+}
+
+#flex2
+{
+	display:flex;
+	flex-direction: row-reverse;
+	margin-top: 3%;
+}
+.logo:hover
+{
+	transform: rotate(2160deg);
+	transition: all 5s;
+}
+.logo
+{	
+	animation-duration: 10s;
+	/*transform: rotate(2160deg);*/
+	animation-iteration-count: infinite;
+	animation-name: tourniquet;
+
+}
+
+@keyframes tourniquet{
+	from {
+		transform: rotate(2160deg);
+		transition: 10s;
+		
+
+	}
+	
+
+	
+}
+#avatar2
+{
+	background: url('../img/avatar.svg');
+	max-width: 100%;
+	max-height: 100%;
+	width: 218px;
+	height: 239px;
+	
+}
+#avatar2:hover
+{
+	transform: rotate(1080deg);
+	transition: all 2s;
+	width: 300px;
+	height: 300px;
+	max-width: 100%;
+	max-height: 100%;
+	background: url('../img/lol.png');
+}
+#avatar2
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.lien_contact{
+
+	
+	color: #CAB694;
+	text-decoration: none;
+	border: 3px solid #CAB694;
+	border-radius: 40px;
+	background-color: white;
+	text-align: center;
+	width: 124px;
+	height: 46px;
+}
+.lien_contact:hover{
+	background-color: #CAB694;
+	color: white;
+}
+#presentation
+{
+	
+	text-align: center;
+	margin-bottom: 120px;
+}
+#table_pres
+{
+	width:100%;
+	
+}
+#competence
+{
+	display: flex;
+	flex-direction: column;
+	background-color: #CAB891;
+	text-align: center;
+	border-radius: 0px 0px 70px 70px;
+	padding-bottom: 30%;
+
+	
+}
+.placement
+{
+	background-color: #CAB891;
+	/*margin-bottom: 120px;*/
+	border-radius: 40px;
+}
+.texte
+{
+	flex: 5;
+	flex-wrap: nowrap;
+	text-align: justify;
+	border-radius: 30px;
+	margin-left: 15%;
+ 	margin-right: 15%;
+ 	font-size: 150%;
+}
+#test3
+{ display: flex;
+ flex-wrap: nowrap; 
+ flex-grow: 1;
+justify-content: center;}
+
+#titre_texte
+{
+	font-size: 180%;
+	margin-bottom: 5%;
+}
+ #tableau
+{
+	position: relative;
+	bottom: 170px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border-radius: 40px;
+	background-color: #F2F6D9;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.frontend
+{
+	flex: 2;	
+}
+.backend
+{
+	flex: 2;
+}
+#frontplace1
+{
+	flex: 2;
+	border-right: solid 1px;
+	padding-left: 10%;
+	padding-right: 5%;
+	
+}
+#backplace1
+{
+	flex: 2;
+	padding-left: 5%;
+	padding-right: 10%;
+	
+}
+
+
+
+ 
+ #txtplace
+ {
+ 	margin-left: 1%;
+ }
+ h5
+ {
+ 	font-size: 150%;
+ }
+ h4
+ {
+ 	font-size: 3em;
+ }
+ #para1
+ {
+ 	background-color: #F2F6D9;
+ 	margin-right: 20%;
+ 	margin-left: 20%;
+ 	margin-bottom:20%;
+ 	margin-top: 0%;
+ 	text-align: center;
+ 	border-radius: 0px 0px 30px 30px;
+ }
+ .classement2
+ {
+ 	flex: 4;
+ 	display: flex;
+ 	margin-left: 20%;
+ 	margin-right: 20%;
+ 	justify-content: center;
+ 	background-color: #F2F6D9;
+ 	text-align: center;
+ 	border-radius: 0px 0px 30px 30px;
+ 	
+ }
+ #placecomp
+ {
+ 	display: flex;
+ 	justify-content: center;
+ }
+#section3
+{
+	text-align: center;
+}
+#contactlink
+{
+	text-decoration: none;
+	color: #CAB694;
+}
+#contactlink:hover
+{
+	color: #798EC8;
+}
+
+#placele
+{
+	position: absolute;
+}
+
+#colab
+{
+	text-align: center;
+	margin-top: 5%;
+}
+#contact
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+	margin-right:20%;
+	margin-left:20%;
+	padding-bottom: 2%;
+	border-radius: 40px;
+	background-color: #AD9C7F;
+}
+#oport
+{
+	flex: 3;
+	margin-top: 5%;
+	margin-left: 5%;
+	
+}
+#icontact
+{
+	flex:1;
+	margin-top: 3%;
+}
+#footer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background-color: #CAB694;
+	border-radius: 40px;
+	margin-right: 10%;
+	margin-left:10%;
+}
+#logo1
+{
+	flex: 1;
+	width: 50px;
+	height: auto;
+	text-align: center;
+	margin-left: 48%;
+	margin-right:48%;
+	margin-top: 7%;
+	color: white;
+
+}
+#text3
+{
+	flex: 1;
+	margin-top: 5%;
+}
+.reseau_logo
+{
+	width: 4%;
+	height: auto;
+	margin-right: 2%;
+}
+#reseau
+{
+	margin-top: 5%;
+}
+#linkedin
+{
+	margin-right: 0%;
+}
+#place2
+{
+	position: relative;
+	top: 40px;
+}
+#bloc_projets
+{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 7%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.ligne_projet
+{
+	flex: 1;
+	display: flex;
+}
+.projets
+{
+	display: grid;
+	flex:1;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+
+}
+.img_hover
+{
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 40px;
+	z-index: 2;
+}
+.texte_hover
+{
+	display:flex;
+  justify-content:center;
+  align-items:center;
+  transition:opacity .8s;
+  z-index:1;
+  margin-top: -30%;
+  font-size: 150%;
+  color: black;
+}
+
+}
+.projets>*{
+	grid-area:1/1/-1/-1;
+}
+.texte_hover:hover
+{
+	z-index: 1;
+	
+	opacity: 0,4;
+}
+.projets:hover .img_hover
+{	
+	color: white;
+	opacity: 30%;
+	z-index: 1;
+}
+a 
+{
+	text-decoration: none;
+}
+@media all and (max-width: 800px)
+{
+	.texte{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.presentation_projet, #contact, #tableau
+	{
+		flex-direction: column;
+		text-align: center;
+	}
+	#logo1
+	{
+		padding-top: 10%;
+	}
+	#presentation2, .texte_hover
+	{
+		display: none;
+	}
+	.ligne_projet
+	{
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+	.projets
+	{
+		margin-right: 20%;
+		margin-left: 20%;
+
+	}
+
+	#tableau
+	{
+		border-right: solid 0px;
+		margin-bottom: 4%;
+		bottom:1px;
+	}
+	#frontplace1
+	{
+		border-right: none;
+	}
+	#backplace1
+	{
+
+		margin-top: 5%;
+		padding-left: 10%;
+		padding-right: 5%;
+	}
+	#competence
+	{
+		padding-bottom: 0px;
+	}
+}	

@@ -1,0 +1,88 @@
+#quit_svg
+{
+	width: 30px;
+
+}
+h1
+{
+	text-align: center;
+	margin-top: -7%;
+}
+#formulaire_contact
+{
+
+}
+form
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-right: 30%;
+	margin-left: 30%;
+	justify-content: center;
+
+}
+#form_name
+{
+	flex: 1;
+}
+#name
+{
+	margin-top: 4%;
+}
+#form_email
+{
+	flex: 1;
+
+}
+#formulaire_textarea
+{
+	margin-top: 4%;
+	width: 450px;
+
+	
+}
+#GET-msg
+{
+	border-radius: 40px;
+	
+	width: 100%;
+	border: 1px solid black;
+	resize: none;
+	background-color: #F3F1DE;
+
+}
+#GET-msg:focus
+{
+	outline: none;
+	border-color: blue;
+}
+.formulaire_name
+{
+	border-radius: 40px;
+	height: 53px;
+	width: 200px;
+	border: 1px solid black;
+
+}
+.formulaire_name:focus
+{
+	outline: none;
+	border-color: blue;
+}
+#email
+{
+	margin-top: 4%;
+}
+#GET-email, #GET-name
+{
+	background-color: #F3F1DE;
+
+}
+#section_form
+{
+	border-radius: 40px;
+	background-color: #CAB891;
+	margin-left: 10%;
+	margin-right:10%;
+}
